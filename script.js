@@ -6,4 +6,17 @@ checkButton.addEventListener("click",()=>{
   if (textInput.value === ""){
     alert("Please input a value");
   }
+
+  else if (textInput.value.length === 1){
+    result.innerText = `${textInput.value} is a palindrome`;
+  }
+
+  else if (lowerReplaced === [...lowerReplaced].reverse().join("")){
+    result.innerText = `${textInput.value} is a palindrome`;
+  }
+
+  else {
+    result.innerText = `${textInput.value} is not a palindrome`;
+  }
+
 });
