@@ -45,4 +45,6 @@ body {
 #result {
   color: #02203f;
   padding: 10px;
+  font-size: larger;
+  font-weight: bold;
 }

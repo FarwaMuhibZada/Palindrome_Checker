@@ -9,14 +9,19 @@ checkButton.addEventListener("click",()=>{
 
   else if (textInput.value.length === 1){
     result.innerText = `${textInput.value} is a palindrome`;
+    textInput.value = "";
   }
 
   else if (lowerReplaced === [...lowerReplaced].reverse().join("")){
     result.innerText = `${textInput.value} is a palindrome`;
+    textInput.value = "";
+
   }
 
   else {
     result.innerText = `${textInput.value} is not a palindrome`;
+    textInput.value = "";
+    
   }
 
 });

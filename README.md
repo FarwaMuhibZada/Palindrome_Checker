@@ -8,8 +8,17 @@
 
 
 ```java script
+checkButton.addEventListener("click",()=>{
+  const lowerReplaced = textInput.value.toLowerCase().replace(/[^A-Za-z0-9]/g,"");
+  if (textInput.value === ""){
+    alert("Please input a value");
+  }
 
-
+  else if (textInput.value.length === 1){
+    result.innerText = `${textInput.value} is a palindrome`;
+    textInput.value = "";
+  }
+});
 
 ```
 
@@ -18,9 +27,8 @@
 ## Demo 📸
 
 life demo link [()]
-here is a .
 
-![first page]()
+![first page](/Capture.PNG)
 
 
 
@@ -62,14 +70,14 @@ git clone https://github.com/FarwaMuhibZada/Palindrome-Checker.git
 go to the githu directory:
 ```bash
 
-cd>Palindrome-Checker
+cd>Palindrome_Checker
 
 ```
 open the project on your IDE like vscode :
 
 ```bash
 
-cd>Palindrome-Checker code .
+cd>Palindrome_Checker code .
 
 ```
 
