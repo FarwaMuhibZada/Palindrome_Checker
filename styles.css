@@ -41,3 +41,8 @@ body {
   padding: 20px;
   margin: 30px auto;
 }
+
+#result {
+  color: #02203f;
+  padding: 10px;
+}
