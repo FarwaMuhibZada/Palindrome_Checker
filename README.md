@@ -26,7 +26,7 @@ checkButton.addEventListener("click",()=>{
 
 ## Demo 📸
 
-life demo link [()]
+life demo link [(https://farwamuhibzada.github.io/Palindrome_Checker/)]
 
 ![first page](/Capture.PNG)
 
